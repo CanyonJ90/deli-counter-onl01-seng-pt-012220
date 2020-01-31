@@ -1,1 +1,20 @@
-# Write your code here.
+require"pry"
+
+
+
+
+
+
+def line(katz_deli)
+ if katz_deli.empty?
+  puts"The line is currently empty."
+ else
+   current_sentence = "The line is currently:"
+   counter = l
+   katz_deli.each do |p|
+     current_sentence += "#{counter}.#{p}"
+     counter += 1
+   end
+   puts current_sentence
+ end
+end
